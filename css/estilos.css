@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html, body{
+max-width: 100%;
+
+}
+body{
+    background-image: url(../assets/img/91b2623aba9c89b0396d7708389c6833.jpg);
+    background-position: center;
+    background-attachment: fixed
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    padding: 1px;
+    background-image: url(../assets/img/115c8898c14e05f6c7f24446308eaaa1.jpg);
+    background-position: center top;
+    position: relative;
+}
+.logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    height: 150px
+
+}
+.lista{
+    margin: 0 4rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.FrasePrincipal{
+    color: rgb(255, 255, 255);
+    font: size 2rem;;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+    background-color: black;
+    display: block;
+    height: 400px;
+    width: auto;
+    background-image: url(../assets/img/0745f0cce235e3d15c601de491c7cb3b.jpg);
+    background-position: y;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.servicio{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    margin-left: 5%;
+}
+.uñas{
+width: 300px;
+height: 300px;
+margin: 5% 40px ;
+}
+.Alinear{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: dotted;
+
+}
+.Frasesecundaria{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    background-color: rgb(70, 70, 70);
+    height: 150px;
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 50px;
+    background-image: url(../assets/img/115c8898c14e05f6c7f24446308eaaa1.jpg);
+}
+.Frase2{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+}
+.local{
+    width: 300px;
+height: 300px;
+margin: 5% 40px ;
+}
+.fotosdellocal{
+    display: flex;
+    justify-content: center;
+
+}
+.Local{
+    color: rgb(255, 255, 255);
+    font: size 2rem;;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    display: block;
+    height: 300px;
+    width: auto;
+    background-image: url(../assets/img/7e861820d712a3a4d3dfc732593bb213.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 5%;
+    padding-top: 8%;
+    padding-left: 1%;
+    text-decoration: dotted;
+    text-decoration: dashed;
+    text-align: center;
+}
+.video{
+    margin-top: 2%;
+    margin-left: 30%;
+}
+.ubicacion{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font: size 2rem;;
+    font-weight: 1000;
+    font-family: 'Cinzel', serif;
+    margin-top: 2%;
+    background-image: url(../assets/img/efe19f27ed9a82754718863c48885345.jpg);
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-decoration: solid;
+}
+.ubigoogle{
+    margin-top: 2%;
+    margin-left: 36%;
+}
+.Fraselocal{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    margin-top: 5%;
+    background-image: url(../assets/img/efe19f27ed9a82754718863c48885345.jpg);
+    padding-left: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.Servicios{
+    color: rgb(255, 255, 255);
+    font: size 2rem;;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    height: 300px;
+    margin-top: 5%;
+    background-image: url(../assets/img/00366edb32392414a43ff75ae038bf53.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 5%;
+    padding-top: 10%;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration: solid;
+
+}
+
+.SERVICIOS{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.servicio1{
+    margin-top: 10px;
+    margin-left: 50px;
+    text-decoration: dotted;
+    text-decoration: solid;
+    font-family: 'Cinzel', serif;
+    font-size: large;
+    font-weight: 100;
+
+}
+.serv{
+    width: 250px;
+    height: 300px;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+.text{
+    margin-bottom: 20px;
+}
+.servi{
+    width: 250px;
+    height: 300px;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+.SERVICIOS2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.servic{
+    width: 250px;
+    height: 300px;
+    margin-top: 15px;
+    padding-left: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.servicio1 a h1{
+    margin-bottom: 20px;
+}
+.Turnos{
+    color: rgb(248, 248, 248);
+    font: size 1rem;;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    height: 300px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-image: url(../assets/img/99823fc1de4c02b52d269bd523bb7d52.jpg);
+    background-position: center;  
+    padding-top: 10%;
+    justify-content: center;
+}
+.bloque{
+    margin-top: 2%;
+    margin-left: 2%;
+    display: inline-block;
+    background-color: antiquewhite;
+    border-style: inset;
+    border-radius: 2%;
+    justify-content: center;
+}
+.descripcion{
+    font-family: 'Cinzel', serif;
+    margin-left: 2%;
+    line-height: 1.5rem;
+    text-align: left;
+    text-transform: lowercase;
+
+}
+.semi{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.reservar{
+    background-color: rgb(92, 185, 185);;
+    border-style: inset;
+    margin-left: 80%;
+}
+.Contacto{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url(../assets/img/99823fc1de4c02b52d269bd523bb7d52.jpg);
+    background-position: 10px;  
+    padding: 10%;
+}
+.formulario{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: large;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.Nombre{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5px;
+}
+.Mensaje{
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.botoni{
+    margin-right: 2%;
+}
+footer{
+ font-family: sans-serif;
+ background-image: url(../assets/img/99823fc1de4c02b52d269bd523bb7d52.jpg);
+ padding: 50px 0;
+ margin-top: 20px;
+}
+.contenido{
+ max-width: 1200px;
+ margin: 0 auto;    
+}
+.footer2{
+ display: flex;
+ flex-wrap: wrap;    
+}
+.footer-links{
+ width: 25%;
+ padding: 0 15px;
+}
+.footer-links h4{
+ font-size: 20px;
+ color: white;
+ margin-bottom: 25px;
+ font-weight: 500;
+ border-bottom: 2px;
+ padding-bottom: 10px;
+ display: inline-block;
+}
+.footer-links ul li a{
+    font-size: 18px;
+    color: rgb(150, 150, 150);
+    display: block;
+    margin-bottom: 25px;
+}
