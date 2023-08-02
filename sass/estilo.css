@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/*creacion de los maps */
+html, body {
+  width: 100%;
+}
+
+.uñas1 :hover {
+  border: 0.1px solid rgba(156, 156, 156, 0);
+}
+
+.nuestrolocal {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.parrafolocal {
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+}
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+
+hr {
+  margin-top: 3%;
+  border-style: solid;
+}
+
+.queservicios {
+  font-family: "Cinzel", serif;
+}
+
+.card {
+  margin-bottom: 2%;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 206, 198));
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: default;
+}
+
+.NAVCONTACTO {
+  margin-bottom: 15%;
+}
+
+/*uso de los maps con get */
+html, body {
+  width: 100%;
+}
+
+.uñas1 :hover {
+  border-style: groove;
+  border-radius: 0.1px;
+}
+
+.nuestrolocal {
+  font-family: Cinzel serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.parrafolocal {
+  font-family: Cinzel serif;
+  font-size: 1.2rem;
+}
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0;
+}
+
+hr {
+  margin-top: 3%;
+}
+
+.queservicios {
+  font-family: Cinzel serif;
+}
+
+.card {
+  margin-bottom: 2%;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: default;
+}
+
+.NAVCONTACTO {
+  margin-bottom: 15%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  list-style: none;
+}
+
+/*uso de maps con get*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  list-style: none;
+}
+
+.Frasesecundaria2 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.486), black);
+}
+.Frasesecundaria2 .coro {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+}
+
+/*uso de maps con get */
+.Frasesecundaria2 {
+  background-color: linear-gradient(to right, rgba(0, 0, 0, 0.486), black);
+}
+.Frasesecundaria2 .coro {
+  font-family: Cinzel serif;
+  font-size: 2rem;
+  padding-top: 2%;
+}
+
+.FrasePrincipal {
+  margin-top: 15%;
+  background-size: auto;
+  min-height: 60vh;
+  position: relative;
+}
+.FrasePrincipal h1 {
+  font-size: 4rem;
+}
+.FrasePrincipal h1 {
+  background-image: url(../assets/img/7322cf1951250acf2b3c0aab519138a3.jpg);
+  border-style: groove;
+  justify-content: center;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+}
+.FrasePrincipal .Frases {
+  font-family: "Cinzel", serif;
+}
+.FrasePrincipal .d-img {
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .FrasePrincipal .FrasePrincipal {
+    min-height: 30vh;
+  }
+  .FrasePrincipal h1 {
+    font-size: calc(1.1rem + 2vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) and (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .icono-wrap .uñaservicio, .icono-wrap .fraseuñas {
+    font-family: "Cinzel", serif;
+  }
+}
+.Frasesecundaria {
+  background-image: linear-gradient(to right, darkslategray, black);
+}
+.Frasesecundaria .col-md-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galeria img {
+  width: 100%;
+  height: 350px;
+}
+#galeria img:hover {
+  border: 5px solid rgba(156, 156, 156, 0);
+}
+
+/*uso de mapas con get */
+.FrasePrincipal {
+  margin-top: 15%;
+  background-size: auto;
+  min-height: 60vh;
+  position: relative;
+}
+.FrasePrincipal h1 {
+  font-size: 4rem;
+}
+.FrasePrincipal h1 {
+  border-style: groove;
+  justify-content: center;
+  text-align: center;
+  font-family: Cinzel serif;
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+}
+.FrasePrincipal .Frases {
+  font-family: Cinzel serif;
+}
+.FrasePrincipal .d-img {
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .FrasePrincipal .FrasePrincipal {
+    min-height: 30vh;
+  }
+  .FrasePrincipal h1 {
+    font-size: calc(1.1rem + 2vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .servicio-fila {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icono-wrap .uñaservicio, .icono-wrap .fraseuñas {
+    font-family: Cinzel serif;
+  }
+  .icono-wrap .fraseuñas {
+    font-family: Cinzel serif;
+  }
+}
+.Frasesecundaria {
+  background-image: linear-gradient(to right, darkslategray, black);
+}
+.Frasesecundaria .col-md-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galeria img {
+  width: 100%;
+  height: 350px;
+}
+#galeria img:hover {
+  border: 5px solid rgba(156, 156, 156, 0);
+}
+
+.formulario {
+  background-image: url(../assets/img/diy-recipes-for-beautiful-hands-header.jpg);
+  height: 800px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.formulario .formularios {
+  margin-top: 150px;
+}
+
+/*uso de los maps con get */
+.formulario {
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.formulario .formularios {
+  margin-top: 150px;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(52, 97, 89));
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar li {
+  margin: 3rem;
+}
+
+/*uso de mapas con get*/
+div {
+  background-color: linear-gradient(to right, rgb(0, 0, 0), rgb(52, 97, 89));
+  -webkit-box: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+div li {
+  margin: 3rem;
+}
+
+body {
+  background-image: url(../assets/img/91b2623aba9c89b0396d7708389c6833.jpg);
+  background-position: center;
+  background-attachment: fix fixed;
+}
+
+/*uso de maps con get */
+body {
+  background-position: center;
+  background-attachment: fixed;
+}/*# sourceMappingURL=estilo.css.map */

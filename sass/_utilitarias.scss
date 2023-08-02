@@ -1,0 +1,86 @@
+html, body{
+    width: $width-body;
+}
+.uñas1 :hover{
+    border: $borderr;
+}
+.nuestrolocal{
+    font-family: $font-family-h1;
+    font-size: $font-sizecoro;
+    font-weight: $font-weightcoro;
+}
+.parrafolocal{
+    font-family: $font-family-h1;
+    font-size: $font-sizeparrafolocal;
+
+}
+#galeria .col-lg-4{
+    padding: $paddingaleria;
+    margin: $margingaleria;
+}
+
+hr{
+    margin-top: $margin-tophr;
+    border-style: $border-stylehr;
+}
+.queservicios{
+    font-family: $font-family-h1;
+}
+.card{
+    margin-bottom: $margin-bottomcard;
+    background-image: $background-imagecard;
+    -webkit-box-shadow: $webkit-box-shadowcard;
+    -moz-box-shadow: $webkit-box-shadowcard;
+    box-shadow: $webkit-box-shadowcard;
+    border-radius: $border-radiuscard;
+    overflow: $overflowcard;
+    cursor: $cursorcard;
+}
+.NAVCONTACTO{
+    margin-bottom: $margin-bottomNAV;
+}
+/*uso de los maps con get */
+html, body{
+    width: map-get($map: $width, $key: width-body);
+}
+.uñas1 :hover{
+    border-style: map-get($map: $borderstyle, $key:border-style);
+    border-radius: map-get($map: $border-radius, $key: borderr);
+    border-color: map-get($map: $border-color, $key: bordergaleria);
+    
+}
+.nuestrolocal{
+    font-family: map-get($map: $font, $key: font-family-h1);
+    font-size: map-get($map: $font, $key: font-sizecoro);
+    font-weight: map-get($map: $font, $key: font-weightcoro);
+}
+.parrafolocal{
+    font-family: map-get($map: $font, $key: font-family-h1);
+    font-size: map-get($map: $font, $key: font-sizeparrafolocal );
+
+}
+#galeria .col-lg-4{
+    padding: map-get($map: $padding, $key: paddingaleria);
+    margin: map-get($map: $margin, $key: margingaleria);
+}
+
+hr{
+    margin-top: map-get($map: $margin, $key: margin-tophr);
+    border-style:map-get($map: $borderstyle, $key: $bordergaleria);
+}
+.queservicios{
+    font-family: map-get($map: $font, $key: font-family-h1);
+}
+.card{
+    margin-bottom: map-get($map: $margin, $key: margin-bottomcard);
+    background-image: map-get($map: $background-color, $key: $background-imagecard);
+    -webkit-box-shadow: map-get($map: $webkitboxshadow, $key: webkit-box-shadow);
+    -moz-box-shadow: map-get($map: $webkitboxshadow, $key: webkit-box-shadow);
+    box-shadow: map-get($map: $webkitboxshadow, $key: webkit-box-shadow);
+    border-radius: map-get($map: $border-radius, $key: border-radiuscard);
+    overflow: map-get($map: $overflow, $key: overflowcard);
+    cursor: map-get($map: $cursor, $key: cursorcard);
+}
+.NAVCONTACTO{
+    margin-bottom: map-get($map: $margin, $key: margin-bottomNAV);
+}

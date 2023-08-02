@@ -1,0 +1,23 @@
+
+.Frasesecundaria2{
+    background-image: $background-image-Frasesecundariaa;
+    .coro{
+        font-family: $font-family-h1;
+        font-size: $font-sizecoro;
+        font-weight: $font-weightcoro;
+        padding-top: $padding-topcoro;
+        padding-bottom: $padding-bottomcoro;
+    }
+}
+/*uso de maps con get */
+
+.Frasesecundaria2{
+    background-color: map-get($map: $background-color, $key: background-image-Frasesecundariaa);
+    .coro{
+        font-family: map-get($map: $font, $key: font-family-h1);
+        font-size: map-get($map: $font, $key: font-sizecoro);
+        font-weight: map-get($map: $font, $key: $font-weightcoro);
+        padding-top: map-get($map: $padding, $key: padding-topcoro);
+        padding-bottom: map-get($map: $padding, $key: $padding-bottomcoro);
+    }
+}

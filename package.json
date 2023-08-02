@@ -1,19 +1,19 @@
 {
-  "name": "corolinenails",
+  "name": "corlinenails",
   "version": "1.0.0",
-  "description": "proyectocoderhousedesarrolloweb",
+  "description": "pryecto de desarolo web coderHouse corolinenails",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feature/preEntrega2.git"
+    "url": "git+https://github.com/feature/preEntrega3tres.git"
   },
-  "author": "Marcos",
+  "author": "marcos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/feature/preEntrega2/issues"
+    "url": "https://github.com/feature/preEntrega3tres/issues"
   },
-  "homepage": "https://github.com/feature/preEntrega2#readme"
+  "homepage": "https://github.com/feature/preEntrega3tres#readme"
 }

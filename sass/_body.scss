@@ -1,0 +1,11 @@
+body {
+    background-image: url(../assets/img/91b2623aba9c89b0396d7708389c6833.jpg);
+    background-position: center;
+    background-attachment: fix fixed;
+  }
+/*uso de maps con get */
+
+body{
+  background-position: map-get($map: $position, $key: background-position-body);
+  background-attachment: map-get($map: $background-attachment, $key: background-attachment-body);
+}

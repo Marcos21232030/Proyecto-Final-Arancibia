@@ -1,0 +1,17 @@
+.navbar{
+    background-image: $background-image-navbar;
+    -webkit-box-shadow: $webkit-box-shadow;
+    -moz-box-shadow: $webkit-box-shadow;
+    box-shadow: $webkit-box-shadow;
+    li{
+        margin: $margin-li;
+    }  
+}
+/*uso de mapas con get*/
+ div{
+    background-color: map-get($map: $background-color, $key: background-image-navbar);
+    -webkit-box: map-get($map: $webkitboxshadow, $key: webkit-box-shadow );
+    li{
+        margin: map-get($map: $margin, $key: margin-li );
+    }
+ }

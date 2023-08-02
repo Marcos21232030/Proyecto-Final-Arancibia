@@ -1,0 +1,138 @@
+.FrasePrincipal{
+    margin-top: $margin-top-FrasePrincipal;
+    background-size: $background-size-FrasePrincipal;
+    min-height: $min-height-FrasePrincipal;
+    position: $position-FrasePrincipal;
+    h1{
+        font-size: $font-size-h1;
+    }
+    h1{
+        background-image: url(../assets/img/7322cf1951250acf2b3c0aab519138a3.jpg);
+        border-style: $border-style;
+        justify-content: $justify-content-h1;
+        text-align: $text-aling-h1;
+        font-family: $font-family-h1;
+        padding-bottom: $padding-bottom-h1;
+        margin-bottom: $margin-bottom-h1;
+    }
+    .Frases{
+        font-family: $font-family-h1;
+    }
+    .d-img{
+        height: $height-d-img;
+    }
+    @media (max-width: $max-width-media1){
+        .FrasePrincipal{
+            min-height: $min-height-media-FrasePrincipal;
+        }
+        h1{
+            font-size: $font-size-media-h1;
+        }
+    } 
+}
+
+
+@media (max-width: $max-width-media-serviciofila){
+    .servicio-fila{
+        width: $width-media-serviciofila;
+        text-align: $text-align-media-serviciofila;
+    }
+    @media(max-width:$max-width-media-icono-wrap ) {
+    .icono-wrap{
+        flex-wrap: $flex-wrap-media-icono-wrap;
+        justify-content: $justify-content-media-icono-wrap;
+        .uñaservicio{
+            font-family: $font-family-h1;
+        }
+        .fraseuñas{
+            @extend .uñaservicio
+        }
+    }   
+}
+}
+
+.Frasesecundaria{
+    background-image: $background-image-Frasesecundaria;
+    .col-md-2{
+        display: $displaycol;
+        margin-left: $margin-leftcol;
+        margin-right: $margin-leftcol;
+    } 
+}
+
+#galeria img{
+    width: $widthgaleria;
+    height: $heightgaleria;
+    &:hover{
+        border: $bordergaleria;
+    }
+}
+/*uso de mapas con get */
+
+.FrasePrincipal{
+    margin-top: map-get($map: $margin, $key: margin-top-FrasePrincipal);
+    background-size: map-get($map: $background-size, $key: background-size-FrasePrincipal);
+    min-height: map-get($map: $height, $key: min-height-FrasePrincipal);
+    position: map-get($map: $position, $key: position-FrasePrincipal);
+    h1{
+        font-size: map-get($map: $font, $key: font-size-h1);
+    }
+    h1{
+        border-style: map-get($map: $borderstyle, $key: border-style);
+        justify-content: map-get($map: $justify-content, $key: justify-content-h1);
+        text-align: map-get($map: $text-aling, $key: text-aling-h1);
+        font-family: map-get($map: $font, $key: font-family-h1);
+        padding-bottom: map-get($map: $padding, $key: padding-bottom-h1);
+        margin-bottom: map-get($map: $margin, $key: margin-bottom-h1);
+    }
+    .Frases{
+        font-family: map-get($map: $font, $key: font-family-h1);
+    }
+    .d-img{
+        height: map-get($map: $height, $key: height-d-img);
+    }
+    @media (max-width: $max-width-media1){
+        .FrasePrincipal{
+            min-height: map-get($map: $height, $key: min-height-media-FrasePrincipal);
+        }
+        h1{
+            font-size: map-get($map: $font, $key: font-size-media-h1);
+        }
+    }
+
+}
+@media (max-width: $max-width-media-serviciofila){
+    .servicio-fila{
+        width: map-get($map: $width, $key: width-media-serviciofila);
+        text-align: map-get($map: $text-aling, $key: $text-aling-h1);
+    }
+    @media(max-width:$max-width-media-icono-wrap ) {
+    .icono-wrap{
+        flex-wrap: map-get($map: $flex, $key: flex-wrap-media-icono-wrap);
+        justify-content: map-get($map: $justify-content, $key: justify-content-h1);
+        .uñaservicio{
+            font-family: map-get($map: $font, $key: font-family-h1);
+        }
+        .fraseuñas{
+            font-family: map-get($map: $font, $key: font-family-h1);
+        }
+    }   
+}
+}
+
+.Frasesecundaria{
+    background-image: $background-image-Frasesecundaria;
+    .col-md-2{
+        display: $displaycol;
+        margin-left: $margin-leftcol;
+        margin-right: $margin-leftcol;
+    } 
+}
+
+#galeria img{
+    width: $widthgaleria;
+    height: $heightgaleria;
+    &:hover{
+        border: $bordergaleria;
+    }
+}

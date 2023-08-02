@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+  }
+  /*uso de maps con get*/
+
+  *{
+    margin: map-get($map: $margin, $key: margin-general);
+    padding: map-get($map: $padding, $key: padding-general);
+    box-sizing: map-get($map: $box, $key: box);
+    list-style: map-get($map: $list, $key: list-general);
+  }

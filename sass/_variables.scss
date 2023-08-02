@@ -1,0 +1,157 @@
+$margin-general: 0;
+$padding-general: 0;
+$box: 0;
+$list-general: none;
+$width-body: 100%;
+$background-position-body: center;
+$background-attachment-body: fixed;
+$margin-li: 3rem;
+$margin-top-FrasePrincipal: 15%;
+$background-size-FrasePrincipal: auto;
+$min-height-FrasePrincipal: 60vh;
+$position-FrasePrincipal: relative;
+$font-size-h1: 4rem;
+$max-width-media1: 768px;
+$min-height-media-FrasePrincipal: 30vh;
+$font-size-media-h1: calc(1.100rem + 2.0vw);
+$border-style: groove;
+$justify-content-h1: center;
+$text-aling-h1: center;
+$font-family-h1: 'Cinzel', serif;
+$padding-bottom-h1: 1%;
+$margin-bottom-h1: 5%; 
+$height-d-img: 100%;
+$max-width-media-serviciofila: 768px;
+$width-media-serviciofila: 100% !important;
+$text-align-media-serviciofila: center;
+$max-width-media-icono-wrap: 576px;
+$flex-wrap-media-icono-wrap: wrap;
+$justify-content-media-icono-wrap: center !important;
+$background-image-Frasesecundaria: linear-gradient(to right, darkslategray, black);
+$displaycol: block;
+$margin-leftcol: auto;
+$background-image-Frasesecundariaa: linear-gradient(to right, rgba(0, 0, 0, 0.486), black);
+$background-image-navbar: linear-gradient(to right, rgb(0, 0, 0), rgb(52, 97, 89));
+$webkit-box-shadow: 4px 4px 4px rgba(0,0,0,.5);
+$font-sizecoro: 2rem;
+$font-weightcoro: 400; 
+$padding-topcoro: 2%;
+$padding-bottomcoro: 0.5%;
+$paddingaleria: 25px;
+$margingaleria: 0 !important;
+$widthgaleria: 100%;
+$heightgaleria: 350px;
+$bordergaleria: 5px solid rgba(156, 156, 156, 0);
+$font-sizeparrafolocal: 1.2rem;
+$borderr: 0.1px solid rgba(156, 156, 156, 0);
+$margin-bottomcard: 2%;
+$background-imagecard: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 206, 198));
+$webkit-box-shadowcard: 2px 2px 4px rgba(0,0,0,.5);
+$border-radiuscard: 6px;
+$overflowcard: hidden;
+$cursorcard: default;
+$margin-tophr: 3%;
+$border-stylehr: solid;
+$heightformulario: 800px;
+$margin-topformulario: 150px;
+$margin-bottomNAV: 15%;
+
+/*creacion de los maps */
+
+$margin: (
+    margin-general: 0,
+    margin-li: 3rem,
+    margin-top-FrasePrincipal: 15%,
+    margin-bottom-h1: 5%,
+    margin-leftcol: auto,
+    margingaleria: 0 ,
+    margin-bottomcard: 2%,
+    margin-tophr: 3%,
+    margin-topformulario: 150px,
+    margin-bottomNAV: 15%,
+);
+$padding: (
+    padding-general: 0,
+    padding-bottom-h1: 1%,
+    padding-topcoro: 2%,
+    padding-bottomcoro: 0.5%,
+    paddingaleria: 25px,      
+);
+$box: (
+    box: 0,
+);
+$list: (
+    list-general: none,
+);
+$width: (
+    width-body: 100%,
+    max-width-media1: 768px,
+    max-width-media-serviciofila: 768px,
+    width-media-serviciofila: 100% ,
+    max-width-media-icono-wrap: 576px,
+    widthgaleria: 100%,   
+);
+$background-attachment: (
+    background-attachment-body: fixed,  
+);
+$background-size: (
+    background-size-FrasePrincipal: auto,
+);
+$background-color: (
+    background-image-Frasesecundaria: linear-gradient(to right, darkslategray, black),
+    background-image-Frasesecundariaa: linear-gradient(to right, rgba(0, 0, 0, 0.486), black),
+    background-image-navbar: linear-gradient(to right, rgb(0, 0, 0), rgb(52, 97, 89)),
+    background-imagecard: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 206, 198)),
+);
+$height: (
+    min-height-FrasePrincipal: 60vh,
+    min-height-media-FrasePrincipal: 30vh,
+    height-d-img: 100%,
+    heightgaleria: 350px,
+    heightformulario: 800px,    
+);
+$position: (
+    background-position-body: center,
+    position-FrasePrincipal: relative,
+);
+$font: (
+    font-size-h1: 4rem,
+    font-size-media-h1: calc(1.100rem + 2.0vw),
+    font-family-h1: Cinzel serif,
+    font-sizecoro: 2rem,
+    font-weightcoro: 400,
+    font-sizeparrafolocal: 1.2rem,    
+);
+$borderstyle: (
+    border-style: groove,
+    bordergaleria: solid, 
+);
+$border-radius: (
+    bordergaleria: 5px,
+    borderr: 0.1px,
+    border-radiuscard: 6px,
+);
+$border-color: (
+    $bordergaleria: rgba(156, 156, 156, 0),
+);
+$justify-content: (
+    justify-content-h1: center,
+);
+$text-aling: (
+    text-aling-h1: center, 
+);
+$flex: (
+    flex-wrap-media-icono-wrap: wrap,
+);
+$display: (
+    displaycol: block,
+);
+$webkitboxshadow: (
+    webkit-box-shadow: 4px 4px 4px rgba(0,0,0,.5),
+);
+$overflow: (
+    overflowcard: hidden,
+);
+$cursor: (
+    cursorcard: default, 
+);

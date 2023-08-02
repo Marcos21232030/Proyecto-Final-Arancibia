@@ -1,0 +1,13 @@
+@mixin hr-margin-border($border-stylehr){
+    margin-top: 3%;
+    border-style: $border-stylehr;
+}
+@mixin margin-padding($paddingaleria,$margingaleria){
+    padding: $paddingaleria;
+    margin: $margingaleria;
+}
+@mixin family-size-weight($font-family-h1,$font-sizecoro,$font-weightcoro){
+    font-family: $font-family-h1;
+    font-size: $font-sizecoro;
+    font-weight: $font-weightcoro;
+}

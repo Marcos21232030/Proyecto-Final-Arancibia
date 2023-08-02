@@ -1,0 +1,21 @@
+
+.formulario{
+    background-image: url(../assets/img/diy-recipes-for-beautiful-hands-header.jpg);
+    height: $heightformulario;
+    -webkit-box-shadow: $webkit-box-shadowcard;
+    -moz-box-shadow: $webkit-box-shadowcard;
+    box-shadow: $webkit-box-shadowcard;
+    .formularios{
+        margin-top: $margin-topformulario;
+    }    
+}
+/*uso de los maps con get */
+.formulario{
+    height: map-get($map: $height, $key: $heightformulario);
+    -webkit-box-shadow: map-get($map: $webkitboxshadow, $key: webkit-box-shadow);
+    -moz-box-shadow: map-get($map: $webkitboxshadow, $key: webkit-box-shadow);
+    box-shadow: map-get($map: $webkitboxshadow, $key: webkit-box-shadow);
+    .formularios{
+        margin-top: map-get($map: $margin, $key: margin-topformulario);
+    }
+}

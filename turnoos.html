@@ -3,10 +3,12 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CorolineNails | Turnos</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--favicon linkeado-->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
@@ -89,23 +91,35 @@
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <div class="pulse">
+      <span style="--i:0;"></span>
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <div class="pulse">
+      <span style="--i:0;"></span>
+      <span style="--i:1;"></span>
+      <span style="--i:2;"></span>
+      <span style="--i:3;"></span>
+    </div>
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
 <hr class="border-1 container text-center" width="100px"/>
   <!--Titulo-->
-  <h2 class="col-12 display-4 mb-4 text-center mt-4 fst-italic queservicios">
+  <h2 class="col-12 display-4 mb-4 text-center mt-4 fst-italic queservicios" data-aos="fade-down">
     Reserva tu turno
   </h2>
-  <p class="parrafolocal fst-italic fw-light pt-3 fs-4 mb-5 text-center">"Una cita con nosotros es el primer paso hacia unas uñas perfectas y un momento de auténtico mimo para ti misma."</p>
+  <p class="parrafolocal fst-italic fw-light pt-3 fs-4 mb-5 text-center" data-aos="fade-down">"Una cita con nosotros es el primer paso hacia unas uñas perfectas y un momento de auténtico mimo para ti misma."</p>
 <!--Cards para reservar los turnos-->
 <!--Card 1-->
-<div class="card mb-3 mt-5 ms-3 CARD" style="max-width: 1000px;">
+<div class="card mb-3 mt-5 ms-3 CARD" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/semana-cinco-esmaltes-y-manicuras-top-del-verano-2022-para-llamar-la-atencion-9.webp" class="img-fluid rounded-start" alt="...">
@@ -120,7 +134,7 @@
   </div>
 </div>
 <!--Card 2-->
-<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;">
+<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/348000.jpg" class="img-fluid rounded-start" alt="...">
@@ -135,7 +149,7 @@
   </div>
 </div>
 <!--Card 3-->
-<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;">
+<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/unas4.jpg" class="img-fluid rounded-start" alt="...">
@@ -150,7 +164,7 @@
   </div>
 </div>
 <!--Card 4-->
-<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;">
+<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/4509fee8-8efa-4eab-aa1e-142c36be2d80_16-9-discover-aspect-ratio_default_0.jpg" class="img-fluid rounded-start" alt="...">
@@ -165,7 +179,7 @@
   </div>
 </div>
 <!--Card 5-->
-<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;">
+<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/consejos-para-una-perfecta-pedicura-en-casa-5.jpg" class="img-fluid rounded-start" alt="...">
@@ -180,7 +194,7 @@
   </div>
 </div>
 <!--Card 6-->
-<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;">
+<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/pedicura-pies-mujer.jpg" class="img-fluid rounded-start" alt="...">
@@ -195,7 +209,7 @@
   </div>
 </div>
 <!--Card 7-->
-<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;">
+<div class="card mb-3 mt-5 ms-3" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/pedicura-basica.jpg" class="img-fluid rounded-start" alt="...">
@@ -210,7 +224,7 @@
   </div>
 </div>
 <!--Card 8-->
-<div class="card mb-5 mt-5 ms-3" style="max-width: 1000px;">
+<div class="card mb-5 mt-5 ms-3" style="max-width: 1000px;" data-aos="fade-right">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="./assets/img/belleza-pies-pedicura-casera-crema-XxXx80.jpg" class="img-fluid rounded-start" alt="...">
@@ -295,15 +309,15 @@
             </a>
           </div>
           <div class="mb-4">
-            <a class="text-secondary text-decoration-none" href="">Compras
+            <a class="text-secondary text-decoration-none" href="">Medios de pago
             </a>
           </div>
           <div class="mb-4">
-            <a class="text-secondary text-decoration-none" href="">Envios
+            <a class="text-secondary text-decoration-none" href="">Sacar turnos
             </a>
           </div>
           <div class="mb-4">
-            <a class="text-secondary text-decoration-none" href="">Pagos
+            <a class="text-secondary text-decoration-none" href="">Nosotros
             </a>
           </div>
         </div>
@@ -312,6 +326,10 @@
     </div>
 
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
