@@ -55,6 +55,30 @@ $border-stylehr: solid;
 $heightformulario: 800px;
 $margin-topformulario: 150px;
 $margin-bottomNAV: 15%;
+$margin-bottom-Manicura-Permanente: 10vw;
+$max-height-LolcalImagenes: 1200px;
+$max-width-LolcalImagenes: 800px;
+$min-height-LolcalImagenes: 640px;
+$border-color-chekk: rgb(49, 138, 255);
+$position-float:fixed;
+$width-float:60px;
+$height-float:60px;
+$bottom-float:40px;
+$right-float:40px;
+$background-color-float:#a6775b;
+$color-float:#000000;
+$border-radius-float:50px;
+$font-size-float:30px;
+$box-shadow-float: 2px 2px 3px #463c3c;
+$z-index-float:100;
+$transition-float: ease 0.3s;
+$animation-float: efecto 1.2s infinite;
+$text-decoration-float: none;
+$color-float: #1a130e;
+$background-color-float:#e4d0c2;
+$transform-float: scale(1.1);
+$transition-float: ease 1s;
+$margin-top: 16px;
 
 /*creacion de los maps */
 
@@ -69,6 +93,10 @@ $margin: (
     margin-tophr: 3%,
     margin-topformulario: 150px,
     margin-bottomNAV: 15%,
+    margin-bottom-Manicura-Permanente: 10vw,
+    margin-top: 16px,
+    
+    
 );
 $padding: (
     padding-general: 0,
@@ -79,6 +107,7 @@ $padding: (
 );
 $box: (
     box: 0,
+    box-shadow-float: 2px 2px 3px #463c3c,
 );
 $list: (
     list-general: none,
@@ -90,6 +119,8 @@ $width: (
     width-media-serviciofila: 100% ,
     max-width-media-icono-wrap: 576px,
     widthgaleria: 100%,   
+    max-width-LolcalImagenes: 800px,
+    width-float:60px,
 );
 $background-attachment: (
     background-attachment-body: fixed,  
@@ -102,17 +133,26 @@ $background-color: (
     background-image-Frasesecundariaa: linear-gradient(to right, rgba(0, 0, 0, 0.486), black),
     background-image-navbar: linear-gradient(to right, rgb(0, 0, 0), rgb(52, 97, 89)),
     background-imagecard: linear-gradient(to right, rgb(255, 255, 255), rgb(170, 206, 198)),
+    background-color-float:#a6775b,
 );
 $height: (
     min-height-FrasePrincipal: 60vh,
     min-height-media-FrasePrincipal: 30vh,
+    min-height-LolcalImagenes: 640px,
     height-d-img: 100%,
     heightgaleria: 350px,
-    heightformulario: 800px,    
+    heightformulario: 800px, 
+    max-height-LolcalImagenes: 1200px,  
+    height-float:60px, 
+    
 );
 $position: (
     background-position-body: center,
     position-FrasePrincipal: relative,
+    position-float:fixed,
+    z-index-float:100,
+    bottom-float:40px,
+    right-float:40px,
 );
 $font: (
     font-size-h1: 4rem,
@@ -121,6 +161,7 @@ $font: (
     font-sizecoro: 2rem,
     font-weightcoro: 400,
     font-sizeparrafolocal: 1.2rem,    
+    font-size-float:30px,
 );
 $borderstyle: (
     border-style: groove,
@@ -130,9 +171,11 @@ $border-radius: (
     bordergaleria: 5px,
     borderr: 0.1px,
     border-radiuscard: 6px,
+    border-radius-float:50px,
 );
 $border-color: (
-    $bordergaleria: rgba(156, 156, 156, 0),
+    bordergaleria: rgba(156, 156, 156, 0),
+    border-color-chekk: rgb(49, 138, 255),
 );
 $justify-content: (
     justify-content-h1: center,
@@ -154,4 +197,10 @@ $overflow: (
 );
 $cursor: (
     cursorcard: default, 
+);
+$animation:(
+    animation-float: efecto 1.2s infinite,
+);
+$transform:(
+    transform-float: scale(1.1),
 );
