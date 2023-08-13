@@ -8,13 +8,8 @@ html, body {
   -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   box-shadow: 10px 10px 10px rgba(51, 51, 51, 0.404);
 }
-.Manicura-Permanente{
-  margin-bottom: 10vw;
-}
 .LolcalImagenes{
-  max-height: 1200px;
-  max-width: 800px;
-  min-height: 640px;
+  max-width: 100%;
 }
 .chekk{
   border-color: rgb(49, 138, 255);
@@ -72,7 +67,6 @@ html, body {
 .container{
   display: flex;
   flex-direction: column;
-  gap: 30px;
   align-items: center;
   justify-content: center;
 }
@@ -153,10 +147,6 @@ hr {
   cursor: default;
 }
 
-.NAVCONTACTO {
-  margin-bottom: 15%;
-}
-
 /*uso de los maps con get */
 html, body {
   width: 100%;
@@ -200,11 +190,6 @@ hr {
   overflow: hidden;
   cursor: default;
 }
-
-.NAVCONTACTO {
-  margin-bottom: 15%;
-}
-
 * {
   margin: 0;
   padding: 0;
