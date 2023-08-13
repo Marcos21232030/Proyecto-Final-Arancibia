@@ -8,6 +8,9 @@ html, body {
   -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   box-shadow: 10px 10px 10px rgba(51, 51, 51, 0.404);
 }
+.Carusel-general img{
+  height: 90vh;
+}
 .LolcalImagenes{
   max-width: 100%;
 }
